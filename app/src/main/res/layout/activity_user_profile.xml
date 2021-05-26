@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".UserProfile">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="176dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/FN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="FirstName" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="304dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/LN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="LastName" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="453dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Gmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="590dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go To DashBoard" />
+</LinearLayout>
